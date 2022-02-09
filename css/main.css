@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+header {
+    background-color: #000;
+    width: 100%;
+}
+.logo {
+    margin-left: 105px;
+}
+main,
+.content {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}  
+.redes-sociais ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+.redes-sociais {
+    float: right;
+    margin: -65px;
+    width: 35%;
+}
+.header-2 {
+    background-color: #363636;
+    margin: 0 auto;
+    padding: 5px;
+}
+.menu {
+    padding-left: 285px;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 80px;
+    height: 40px;
+    margin-top: 11px;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #000;
+    
+}
+.menu ul li a:hover {
+    color: 	#808080;
+}
+.menu ul li a {
+    color: #F8F8FF;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.col-100, .slider-principal img {
+    width: 100%;
+}
+
