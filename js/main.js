@@ -24,6 +24,14 @@ btn.addEventListener("click", openMenu);
       var swiper2 = new Swiper(".bg-slider", {
         loop: true,
         spaceBetween: 0,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
