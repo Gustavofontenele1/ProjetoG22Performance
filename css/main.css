@@ -110,7 +110,10 @@ main .content {
     width: 100%;
     margin-left: -30px;
 }
-#menu-mobile {
+.nav-toggle {
+    display: none;
+}
+#menu-mobile{
     display: none;
 }
 .menu ul li {
