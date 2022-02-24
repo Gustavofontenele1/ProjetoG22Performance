@@ -100,7 +100,16 @@ main .content {
     padding: 5px;
     width: 100%;
 }
-
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: white;
+    display: flex;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: white;
+    display: flex;
+}
 #menu-mobile.show {
     transform: translateY(0%);
 }
@@ -468,7 +477,7 @@ main .content {
         margin-left: 20px;
     }
     .bg-slider-thumbs {
-        margin-bottom: 1em;
+        margin-bottom: -29em;
     }
     .swiper-slide .text-content .read-btn {
         font-size: 9px;
@@ -531,6 +540,11 @@ main .content {
     .bar-close {
         margin-left: -30px;
         margin-top: 10px;
+    }
+    .bg-slider .swiper-slide {
+        position: relative;
+        width: 100%; 
+        
     }
 }
 /* NAV MENU */
