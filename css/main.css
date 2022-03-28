@@ -96,7 +96,7 @@ main .content {
 .header-2 {
     background-color: #363636;
     width: 100%;
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 3px solid var(--white-color);
 }
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     content: 'prev';
