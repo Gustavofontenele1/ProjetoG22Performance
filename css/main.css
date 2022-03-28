@@ -364,8 +364,8 @@ main .content {
     text-align: center;
     color: var(--white-color);
 }
-.tel, a{
-    color: var(--white-color)!important;
+.tel a{
+    color: var(--white-color);
 }
 iframe {
     display: flex;
