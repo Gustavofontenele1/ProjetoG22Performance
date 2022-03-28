@@ -330,6 +330,7 @@ main .content {
     color: #000;
     text-shadow: #fff -1px 1px;
     text-align: center;
+    margin-top: -35px;
 }
 .servicos .row .col-md-4 a {
     text-decoration: none;
