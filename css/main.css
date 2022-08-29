@@ -93,13 +93,15 @@ main .content {
     display: flex;
     justify-content: center;
 }
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    content: 'prev';
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: "prev";
     color: white;
     display: flex;
 }
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-    content: 'next';
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: "next";
     color: white;
     display: flex;
 }
@@ -109,7 +111,7 @@ main .content {
 .nav-toggle {
     display: none;
 }
-#menu-mobile{
+#menu-mobile {
     display: none;
 }
 .menu {
@@ -292,7 +294,7 @@ main .content {
     display: none !important;
 }
 .servicos {
-    background-image: url('../img/foto322.jpeg');
+    background-image: url("../img/foto322.jpeg");
     justify-content: center;
     display: flex;
     background-size: 40%;
@@ -304,14 +306,13 @@ main .content {
     border-radius: 10px;
     opacity: 5;
     width: 100%;
-    
 }
 .servicos .row h2 {
     color: #000;
     text-shadow: #fff -1px 1px;
     text-align: center;
     font-size: 4em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -320,7 +321,7 @@ main .content {
     text-shadow: #fff -1px 1px;
     text-align: center;
     font-size: 3em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-bottom: 40px;
 }
@@ -337,15 +338,12 @@ main .content {
 }
 .servicos .row .col-md-4 ul {
     padding-top: 10px;
-    
-    
 }
 .servicos .row .col-md-4 ul li {
     text-decoration: none;
-    list-style-type:none;
+    list-style-type: none;
     padding-top: 2px;
     margin: 0px 20px 8px 0px;
-    
 }
 .servicos .row .col-md-4 .preparacao {
     height: 64px;
@@ -354,14 +352,13 @@ main .content {
 .footer {
     background: black;
 }
-.contato{
+.contato {
     text-align: center;
     margin-top: -46px;
     color: var(--white-color);
 }
 .contato h2 {
     font-size: 4em;
-
 }
 .funcionamento {
     text-align: center;
@@ -379,25 +376,23 @@ main .content {
 .funcionamento span {
     font-size: 1.4em;
 }
-.tel a{
+.tel a {
     color: var(--white-color);
 }
 iframe {
-padding: 15px 0 15px 0;
+    padding: 15px 0 15px 0;
 }
 .copyright {
     background: var(--cor-extra);
     width: 100%;
     height: 100px;
     flex-direction: column;
-
 }
 .text-copyright {
     color: var(--white-color);
     text-align: center;
-    padding-top: 20px ;
+    padding-top: 20px;
 }
 .text-copyright p {
     margin-top: -10px;
 }
-
