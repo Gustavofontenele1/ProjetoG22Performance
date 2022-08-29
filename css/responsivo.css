@@ -259,8 +259,7 @@
     }
 
     .logo img {
-        width: 40%;
-        margin-top: 50px;
+display: none;
     }
  
 
@@ -458,6 +457,9 @@
     .open-menu {
         width: 100%;
     }
+    .logo img {
+        display: none;
+            }
 
     #menu-mobile ul {
         margin: 20px;
