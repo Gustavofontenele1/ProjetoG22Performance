@@ -159,7 +159,8 @@ main .content {
     height: 100vh;
 }
 .bg-slider .swiper-slide img {
-    width: 100%;
+    width: -webkit-fill-available;
+    margin-top: 55px;
     height: 100vh;
     object-fit: cover;
     background-position: center;
