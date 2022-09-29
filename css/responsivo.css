@@ -4,7 +4,7 @@
         font-size: 26px;
     }
     .bg-slider-thumbs {
-        margin-bottom: 0em;
+        margin-bottom: -2em;
     }
     .menu ul li a {
         font-size: 27px;
@@ -37,7 +37,7 @@
         margin: -17px 101px;
     }
     .bg-slider-thumbs {
-        margin-bottom: 19em;
+        margin-bottom: 4em;
     }
     .logo {
         margin-right: 30em;
@@ -224,7 +224,7 @@
         margin-top: 10px;
     }
     .bg-slider-thumbs {
-        margin-bottom: 16em;
+        margin-bottom: 8em;
     }
     .bg-slider .swiper-slide {
         position: relative;
